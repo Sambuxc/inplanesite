@@ -1,6 +1,8 @@
+<script setup>
+  import '@/assets/main.css'
+</script>
+
 <template>
-  <div>
-    <NuxtRouteAnnouncer />
-    <NuxtWelcome />
-  </div>
+  <Header/>
+  <NuxtPage/>
 </template>

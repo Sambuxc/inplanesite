@@ -3,12 +3,12 @@
 </script>
 
 <template>
-  <nav class="portfolio-sidebar__nav flex-1 p-4">
-    <ul class="space-y-2">
+  <nav class="flex-1 p-4">
+    <ul class="list-none space-y-2 p-0 m-0">
       <li>
         <button
             class="portfolio-sidebar__nav-item w-full flex items-center gap-3 px-4 py-3 rounded-lg text-left transition-colors relative bg-sidebar-accent text-sidebar-accent-foreground">
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                class="lucide lucide-house w-5 h-5">
             <path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8"></path>
@@ -20,7 +20,7 @@
       <li>
         <button
             class="portfolio-sidebar__nav-item w-full flex items-center gap-3 px-4 py-3 rounded-lg text-left transition-colors relative text-sidebar-foreground hover:bg-sidebar-accent/50 hover:text-sidebar-accent-foreground">
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                class="lucide lucide-book-open w-5 h-5">
             <path d="M12 7v14"></path>
@@ -32,7 +32,7 @@
       <li>
         <button
             class="portfolio-sidebar__nav-item w-full flex items-center gap-3 px-4 py-3 rounded-lg text-left transition-colors relative text-sidebar-foreground hover:bg-sidebar-accent/50 hover:text-sidebar-accent-foreground">
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                class="lucide lucide-user w-5 h-5">
             <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path>
@@ -43,7 +43,7 @@
       <li>
         <button
             class="portfolio-sidebar__nav-item w-full flex items-center gap-3 px-4 py-3 rounded-lg text-left transition-colors relative text-sidebar-foreground hover:bg-sidebar-accent/50 hover:text-sidebar-accent-foreground">
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                class="lucide lucide-shopping-bag w-5 h-5">
             <path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"></path>
@@ -55,7 +55,7 @@
       <li>
         <button
             class="portfolio-sidebar__nav-item w-full flex items-center gap-3 px-4 py-3 rounded-lg text-left transition-colors relative text-sidebar-foreground hover:bg-sidebar-accent/50 hover:text-sidebar-accent-foreground">
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                class="lucide lucide-mail w-5 h-5">
             <rect width="20" height="16" x="2" y="4" rx="2"></rect>

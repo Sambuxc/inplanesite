@@ -1,75 +1,25 @@
-# Nuxt Minimal Starter
+https://github.com/bcms/starters/assets/15079459/06f1fe9c-31b1-4a0d-8e49-d489efc19a4e
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+# BCMS E-commerce code starter for Nuxt.js
 
-## Setup
+This is a Nuxt.js starter for BCMS, a headless CMS. It's minimal but solid, with a clean codebase that hooks directly into your BCMS project, ready to extend and scale as needed.
 
-Make sure to install dependencies:
+## Getting Started
 
-```bash
-# npm
-npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
+Run the following command
 
 ```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
+npx @thebcms/cli create nuxt starter e-commerce
 ```
 
-## Production
+and follow the prompts.
 
-Build the application for production:
+---
 
-```bash
-# npm
-npm run build
+### Useful links:
 
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+-   [BCMS website](https://thebcms.com/)
+-   [BCMS documentation](https://thebcms.com/docs/)
+-   [BCMS and Nuxt.js integration](https://thebcms.com/docs/integrations/nuxt-js)
+-   [All BCMS starters](https://thebcms.com/starters)
+-   [Join our Discord](https://discord.com/invite/SYBY89ccaR)

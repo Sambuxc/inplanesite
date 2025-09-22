@@ -1,5 +1,7 @@
 {
-    "name": "nuxt-app",
+    "name": "inplainsite",
+    "version": "1.0.0",
+    "author": "thelabs.work",
     "private": true,
     "type": "module",
     "scripts": {
@@ -12,7 +14,7 @@
     "dependencies": {
         "@thebcms/nuxt": "^1.0.5",
         "@thebcms/types": "^1.2.0",
-        "nuxt": "^3.13.0",
+        "nuxt": "^4.1.2",
         "nuxt-svgo": "^4.0.7",
         "vue": "latest",
         "vue-router": "latest"

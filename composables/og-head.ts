@@ -13,7 +13,7 @@ export const useHeadTags = () => {
         description?: string;
         image?: string;
     }) => {
-        if (!title) title = 'Moda';
+        if (!title) title = 'Writings from within';
         if (!description)
             description =
                 'Jumpstart your Nuxt project with this BCMS starter. Easily manage your content and scale your application without the backend hassle. Get started now!';
@@ -31,7 +31,7 @@ export const useHeadTags = () => {
                 },
                 {
                     property: 'og:site_name',
-                    content: `${title} - Moda`,
+                    content: `${title} - InPlaneSite`,
                 },
                 { property: 'og:type', content: 'website' },
                 { property: 'twitter:card', content: 'summary_large_image' },
@@ -43,7 +43,7 @@ export const useHeadTags = () => {
                 {
                     hid: 'ogTitle',
                     property: 'og:title',
-                    content: `${title} - Moda`,
+                    content: `${title} - InPlaneSite`,
                 },
                 {
                     hid: 'ogDescription',
@@ -63,7 +63,7 @@ export const useHeadTags = () => {
                 {
                     hid: 'twitterTitle',
                     property: 'twitter:title',
-                    content: `${title} - Moda`,
+                    content: `${title} - InPlaneSite`,
                 },
                 {
                     hid: 'twitterDescription',

@@ -81,7 +81,7 @@ const formattedDate = (date: number) => {
 
 useHead(() =>
     setOgHead({
-        title: `${data.value?.meta.seo?.title || data.value?.meta.title} - Moda`,
+        title: `${data.value?.meta.seo?.title || data.value?.meta.title} - Writings from within`,
         description: data.value?.meta.seo?.description,
     }),
 );

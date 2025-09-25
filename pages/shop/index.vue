@@ -27,7 +27,7 @@ const { setOgHead } = useHeadTags();
 
 useHead(() =>
     setOgHead({
-        title: 'Shop - Moda',
+        title: 'Shop - In Plane Site',
     }),
 );
 </script>

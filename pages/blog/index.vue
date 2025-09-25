@@ -46,7 +46,7 @@ const { setOgHead } = useHeadTags();
 
 useHead(() =>
     setOgHead({
-        title: 'Blogs - Moda',
+        title: 'Blogs - Writings from within',
     }),
 );
 </script>

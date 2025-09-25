@@ -42,7 +42,7 @@ if (!data.value || error.value) {
 
 useHead(() =>
     setOgHead({
-        title: 'Legal - Moda',
+        title: 'Legal - InPlaneSite',
     }),
 );
 </script>

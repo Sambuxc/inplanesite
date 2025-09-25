@@ -170,7 +170,7 @@ const { cartItems, addCartItem, removeCartItem, totalCartPrice } = useCart();
 
 useHead(() =>
     setOgHead({
-        title: 'Cart - Moda',
+        title: 'Cart - InPlaneSite',
     }),
 );
 </script>

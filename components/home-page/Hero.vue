@@ -12,11 +12,8 @@
         </p>
       </div>
     </div>
-    <div
-        v-if="image"
-        class="absolute top-0 left-0 size-full bg-[#365b6d] flex items-center justify-center"
-    >
-      <BcmsImage :media="image" class="relative top-56 mx-auto object-cover"/>
+    <div class="absolute top-0 left-0 size-full">
+      <BcmsImage :media="image" class="size-full object-cover" />
     </div>
   </section>
 </template>

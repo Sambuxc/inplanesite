@@ -15,6 +15,7 @@
                                 : '',
                         ]"
                     />
+                  <h1 class="ml-3 font-serif uppercase font-light text-2xl text-[#365b6d]">In Plane Site</h1>
                 </NuxtLink>
                 <div class="flex items-center gap-5 md:gap-8">
                     <div

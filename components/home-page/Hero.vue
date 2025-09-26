@@ -4,14 +4,9 @@
       <div
           class="relative z-10 flex flex-col items-center justify-center h-full text-center"
       >
-        <h1 class="sr-only">
+        <h2 class="text-[32px] leading-[1.2] tracking-[-0.1px] text-white max-w-[890px] mx-auto mb-4 md:text-[48px] lg:text-6xl">
           {{ title }}
-        </h1>
-        <SvgoLogoWhite
-            class="w-[250px] text-white mb-8 md:w-[378px]"
-            filled
-            :font-controlled="false"
-        />
+        </h2>
         <p class="text-xl leading-none text-white">
           {{ description }}
         </p>

@@ -1,26 +1,30 @@
 {
-    "name": "inplanesite",
-    "version": "1.0.0",
-    "author": "thelabs.work",
-    "private": true,
-    "type": "module",
-    "scripts": {
-        "build": "nuxt build",
-        "dev": "nuxt dev",
-        "generate": "nuxt generate",
-        "preview": "nuxt preview",
-        "postinstall": "nuxt prepare"
-    },
-    "dependencies": {
-        "@thebcms/nuxt": "^1.0.5",
-        "@thebcms/types": "^1.2.0",
-        "nuxt": "^4.1.2",
-        "nuxt-svgo": "^4.0.7",
-        "vue": "latest",
-        "vue-router": "latest"
-    },
-    "devDependencies": {
-        "@nuxtjs/tailwindcss": "^6.12.1",
-        "sass": "^1.79.4"
-    }
+  "name": "inplanesite",
+  "version": "1.0.0",
+  "author": "thelabs.work",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "start": "node .output/server/index.mjs"
+  },
+  "dependencies": {
+    "@thebcms/nuxt": "^1.0.5",
+    "@thebcms/types": "^1.2.0",
+    "nuxt": "^4.1.2",
+    "nuxt-svgo": "^4.0.7",
+    "vue": "latest",
+    "vue-router": "latest"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^6.12.1",
+    "sass": "^1.79.4"
+  },
+  "engines": {
+    "node": ">=23.3.0"
+  }
 }

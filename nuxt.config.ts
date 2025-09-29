@@ -3,6 +3,13 @@ export default defineNuxtConfig({
     compatibilityDate: '2024-04-03',
     devtools: { enabled: true },
     components: true,
+    vite: {
+        build: {
+            // Disable CSS minification warnings
+            minify: false
+        },
+        logLevel: 'error' // Only show errors, not warnings
+    },
     app: {
         head: {
             htmlAttrs: {

@@ -1,15 +1,16 @@
 import type { BCMSEntryContentParsed } from '../content';
 import type { BCMSEntryStatuses } from '../status';
 import type { SeoGroup } from '../group/seo';
-import type { PropMediaDataParsed } from '@thebcms/types';
+import type { PropRichTextDataParsed, PropMediaDataParsed } from '@thebcms/types';
 
 export interface HomeEntryMetaItem {
     title: string;
     slug: string;
     seo?: SeoGroup;
     hero_title: string;
-    hero_description: string;
-    hero_cover_image: PropMediaDataParsed;
+    hero_description?: string;
+    rich_hero_description?: PropRichTextDataParsed;
+    hero_cover_image?: PropMediaDataParsed;
     cta_title: string;
     cta_description: string;
     cta_label: string;

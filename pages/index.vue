@@ -2,7 +2,7 @@
     <div v-if="data">
         <HomePageHero
             :title="data.meta.hero_title"
-            :description="data.meta.hero_description"
+            :description="getHeroDesc"
             :image="data.meta.hero_cover_image"
         />
         <HomePageCategories
@@ -46,4 +46,18 @@ useHead(() =>
         description: data.value?.meta.seo?.description,
     }),
 );
+
+const getHeroDesc = computed(() => {
+  if(data.value?.meta.hero_description) {
+    return data.value?.meta.hero_description;
+  } else if(data.value?.meta?.rich_hero_description?.nodes.length > 0) {
+    return data.value?.meta?.rich_hero_description?.nodes.reduce((acc, node) => {
+      if(node.value === '') {
+        acc += '<br/>';
+      }
+      acc += node.value;
+      return acc;
+    }, '');
+  }
+})
 </script>

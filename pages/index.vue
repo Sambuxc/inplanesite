@@ -47,6 +47,10 @@ useHead(() =>
     }),
 );
 
+/**
+ * Returns the hero description, either from the plain text field or from the rich text field.
+ * @returns {string}
+ */
 const getHeroDesc = computed(() => {
   if(data.value?.meta.hero_description) {
     return data.value?.meta.hero_description;

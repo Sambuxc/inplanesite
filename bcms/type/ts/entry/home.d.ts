@@ -8,8 +8,8 @@ export interface HomeEntryMetaItem {
     slug: string;
     seo?: SeoGroup;
     hero_title: string;
-    hero_description?: string;
-    rich_hero_description?: PropRichTextDataParsed;
+    hero_description?: string | undefined;
+    rich_hero_description?: PropRichTextDataParsed | undefined;
     hero_cover_image?: PropMediaDataParsed;
     cta_title: string;
     cta_description: string;

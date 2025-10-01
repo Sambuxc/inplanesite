@@ -18,6 +18,7 @@
     "nuxt": "^4.1.2",
     "nuxt-stripe-module": "^3.2.0",
     "nuxt-svgo": "^4.0.7",
+    "stripe": "^19.0.0",
     "vue": "latest",
     "vue-router": "latest"
   },

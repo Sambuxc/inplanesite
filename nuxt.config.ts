@@ -1,5 +1,10 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+    modules: [
+        '@nuxtjs/tailwindcss',
+        'nuxt-svgo',
+        '@thebcms/nuxt',
+    ],
     compatibilityDate: '2024-04-03',
     devtools: {enabled: true},
     components: true,
@@ -18,7 +23,11 @@ export default defineNuxtConfig({
         },
     },
     runtimeConfig: {
-        // bcms: {
+        stripe: {
+            publishableKey: 'YOUR_STRIPE_PUBLISHABLE_KEY',
+        },
+    },
+    bcms: {
         orgId: process.env.BCMS_ORG_ID,
         instanceId: process.env.BCMS_INSTANCE_ID,
         privateClientOptions: {
@@ -39,15 +48,6 @@ export default defineNuxtConfig({
                 injectSvg: true,
             },
         },
-        // },
     },
     css: ['~/assets/styles/main.scss'],
-    modules: [
-        ['nuxt-stripe-module', {
-            publishableKey: process.env["STRIPE_SANDBOX_PUBLIC_KEY "],
-        }],
-        '@nuxtjs/tailwindcss',
-        'nuxt-svgo',
-        '@thebcms/nuxt',
-    ]
 });

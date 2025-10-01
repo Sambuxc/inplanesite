@@ -13,10 +13,10 @@
     "start": "node .output/server/index.mjs"
   },
   "dependencies": {
+    "@stripe/stripe-js": "^8.0.0",
     "@thebcms/nuxt": "^1.0.5",
     "@thebcms/types": "^1.2.0",
     "nuxt": "^4.1.2",
-    "nuxt-stripe-module": "^3.2.0",
     "nuxt-svgo": "^4.0.7",
     "stripe": "^19.0.0",
     "vue": "latest",

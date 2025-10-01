@@ -16,11 +16,7 @@
     <h2 class="text-[32px] leading-none text-appGray-700 mb-10">
       Checkout
     </h2>
-    <NuxtLink
-        to="/shop"
-        class="flex max-w-max text-2xl leading-none tracking-[-0.5px] px-14 pt-3.5 pb-[18px] bg-white border border-appGray-400 mx-auto transition-colors duration-300 hover:bg-appText hover:text-white"
-    >
-      Shop
-    </NuxtLink>
+    <!-- Stripe form begins here -->
+
   </div>
 </template>

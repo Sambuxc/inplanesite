@@ -51,7 +51,6 @@
                       width="16"
                       height="16"
                       viewBox="0 0 16 16"
-                      fill="none"
                       xmlns="http://www.w3.org/2000/svg"
                       class="w-4 h-4"
                   >
@@ -91,7 +90,6 @@
                       width="16"
                       height="16"
                       viewBox="0 0 16 16"
-                      fill="none"
                       xmlns="http://www.w3.org/2000/svg"
                       class="w-4 h-4"
                   >
@@ -144,6 +142,7 @@
           </div>
           <button
               class="flex bg-appText text-white p-4 leading-none tracking-[-0.32px]"
+              @click="$router.push('/shop/checkout')"
           >
             Checkout
           </button>

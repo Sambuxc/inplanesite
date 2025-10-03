@@ -23,3 +23,20 @@ body {
 .fade-leave-to {
     opacity: 0;
 }
+
+h2 {
+  @apply text-blue-900/90 text-4xl md:text-5xl lg:text-6xl md:pb-3;
+  font-family: 'Playfair Display', Helvetica, Arial, sans-serif;
+}
+
+h1, p {
+  font-family: 'Fauna One', Helvetica, Arial, sans-serif;
+}
+
+p {
+  @apply text-blue-900/80 text-xl;
+}
+
+section > h2+p {
+  @apply mb-4;
+}

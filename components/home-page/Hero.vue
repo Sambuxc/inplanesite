@@ -2,12 +2,16 @@
   <section class="relative overflow-hidden h-screen flex items-center">
     <div class="container">
       <div
-          class="p-10 w-full md:w-4/5 lg:w-3/5 xl:w-1/2 mx-auto rounded-lg relative z-10 flex flex-col items-center justify-center h-full text-center bg-gray-100/70"
+          class="p-10 xl:p-12 w-full md:w-4/5 lg:w-1/2 mx-auto rounded-lg relative z-10 flex flex-col gap-4 items-center justify-center h-full bg-gray-100/80"
       >
-        <h2 class="text-[32px] leading-[1.2] tracking-[-0.1px] text-blue-900/90 max-w-[890px] mx-auto mb-4 md:text-[48px] lg:text-6xl font-serif">
+        <h2>
           {{ title }}
         </h2>
-        <p class="text-xl leading-none text-blue-900" v-html="description">
+        <p
+            v-if="description"
+            class="text-xl leading-none text-left ld:text-center"
+            v-html="description"
+        >
         </p>
       </div>
     </div>

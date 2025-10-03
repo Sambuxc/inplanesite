@@ -15,11 +15,11 @@
                                 : '',
                         ]"
                     />
-                  <h1 class="ml-3 font-serif uppercase font-light text-2xl text-[#365b6d]">In Plane Site</h1>
+                  <h1 class="ml-3 uppercase font-light text-2xl text-[#365b6d]">In Plane Site</h1>
                 </NuxtLink>
                 <div class="flex items-center gap-5 md:gap-8">
                     <div
-                        class="header--nav gap-6 text-xl max-md:text-white max-md:absolute max-md:left-0 max-md:-bottom-6 max-md:translate-y-full max-md:w-full md:text-appGray-700 md:text-base"
+                        class="header--nav gap-6 text-xl max-md:absolute max-md:left-0 max-md:-bottom-6 max-md:translate-y-full max-md:w-full md:text-base"
                         :class="[showMobileMenu ? '' : 'max-md:hidden']"
                     >
                         <ul class="flex flex-col gap-x-4 md:flex-row">

@@ -2,15 +2,15 @@
     <section class="relative h-screen flex items-center py-20">
         <div class="container">
             <div
-                class="relative z-10 flex flex-col items-center justify-center h-full text-center"
+                class="relative z-10 flex flex-col items-center justify-center h-full text-center bg-gray-100/80 rounded-lg p-10 xl:p-12 w-full md:w-4/5 lg:w-1/2 mx-auto"
             >
                 <h2
-                    class="text-[32px] leading-[1.2] tracking-[-0.1px] text-appGray-900 max-w-[890px] mx-auto mb-4 md:text-[48px]"
+                    class="text-[32px] leading-[1.2] tracking-[-0.1px] max-w-[890px] mx-auto mb-4 md:text-[48px]"
                 >
                     {{ title }}
                 </h2>
                 <p
-                    class="text-[20px] leading-[1.3] text-appGray-600 max-w-[710px] mx-auto mb-10"
+                    class="max-w-[710px] mx-auto mb-10"
                 >
                     {{ description }}
                 </p>

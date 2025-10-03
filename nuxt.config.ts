@@ -24,7 +24,7 @@ export default defineNuxtConfig({
     },
     runtimeConfig: {
         stripe: {
-            publishableKey: 'YOUR_STRIPE_PUBLISHABLE_KEY',
+            publishableKey: process.env.NUXT_STRIPE_PUBLIC_KEY,
         },
     },
     bcms: {
